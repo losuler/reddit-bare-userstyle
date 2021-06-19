@@ -1,3 +1,14 @@
+/* ==UserStyle==
+@name         (Old) Reddit Bare Light
+@namespace    github.com/losuler/reddit-bare-userstyle
+@homepageURL  https://github.com/losuler/reddit-bare-userstyle
+@description  A userstyle that strips Reddit down to the bare minimum. 
+@updateURL    https://github.com/losuler/reddit-bare-userstyle/blob/master/reddit-bare-light.user.css
+@version      0.1.0
+@preprocessor stylus
+==/UserStyle== */
+@-moz-document url-prefix("https://old.reddit.com") {
+
 /*
 
 Colors
@@ -535,4 +546,6 @@ div.thing.link {
 /* Submit a link button */
 .morelink {
   display: none;
+}
+
 }
