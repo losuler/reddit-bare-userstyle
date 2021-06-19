@@ -438,14 +438,14 @@ span[class="hover pagename redditname"] a {
 
 .arrow.up,
 .arrow.up:hover {
-  background-image: url(http://jasonlong.github.io/reddit-tighty-whities/images/vote-up.png) !important;
+  background-image: url(https://raw.githubusercontent.com/losuler/reddit-bare-userstyle/master/img/vote-up.png) !important;
   transition: none !important;
   background-color: transparent !important;
 }
 
 .arrow.down,
 .arrow.down:hover {
-  background-image: url(http://jasonlong.github.io/reddit-tighty-whities/images/vote-down.png) !important;
+  background-image: url(https://raw.githubusercontent.com/losuler/reddit-bare-userstyle/master/img/vote-down.png) !important;
   transition: none !important;
   background-color: transparent !important;
 }
@@ -455,12 +455,12 @@ span[class="hover pagename redditname"] a {
 }
 
 .arrow.upmod {
-  background-image: url(http://jasonlong.github.io/reddit-tighty-whities/images/vote-up-active.png) !important;
+  background-image: url(https://raw.githubusercontent.com/losuler/reddit-bare-userstyle/master/img/vote-up-active.png) !important;
   transition: none !important;
 }
 
 .arrow.downmod {
-  background-image: url(http://jasonlong.github.io/reddit-tighty-whities/images/vote-down-active.png) !important;
+  background-image: url(https://raw.githubusercontent.com/losuler/reddit-bare-userstyle/master/img/vote-down-active.png) !important;
   transition: none !important;
 }
 /* Posts */
