@@ -20,6 +20,6 @@ This userstyle is based on [jasonlong/reddit-tighty-whities](https://github.com/
 
 ## Screenshots
 
-![](reddit-bare-light.png)
+![](img/reddit-bare-light.png)
 &nbsp;
-![](reddit-bare-dark.png)
+![](img/reddit-bare-dark.png)
