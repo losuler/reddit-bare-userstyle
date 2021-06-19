@@ -6,6 +6,7 @@ link: #007bc7
 visited: #497c9c
 text: #444
 light text: #767676
+
 */
 
 * {
@@ -19,7 +20,8 @@ light text: #767676
 .sidecontentbox,
 #ad_main,
 .listing-chooser,
-.trending-subreddits {
+.trending-subreddits,
+.login-form-side {
   display: none !important;
 }
 
@@ -209,6 +211,7 @@ span[class="hover pagename redditname"] a {
   padding: 0 !important;
   line-height: inherit !important;
   color: #444 !important;
+  margin-right: 5px;
 }
 
 #header-bottom-right .user .userkarma {
@@ -219,22 +222,15 @@ span[class="hover pagename redditname"] a {
 
 #header-bottom-right a {
   color: #007bc7 !important;
-  background-image: none !important;
   text-indent: 0 !important;
   top: 0 !important;
   transition: none !important;
+  font-weight: normal !important;
 }
 
 .logout {
-  margin-left: 12px !important;
+  margin-left: 5px !important;
 }
-
-#header-bottom-right .separator,
-#mail,
-.pref-lang {
-  display: none !important;
-}
-
 
 /* Get search box out of sidebar */
 .side {
@@ -270,6 +266,13 @@ span[class="hover pagename redditname"] a {
   margin: -45px 0 0 0 !important;
   background-image: none !important;
   border: 0 !important;
+}
+
+/* Search results */
+#previoussearch > #search {
+  float: inherit !important;
+  width: 0% !important;
+  margin: 0px 0 0 0 !important;
 }
 
 #search input[type=text] {
@@ -378,7 +381,6 @@ span[class="hover pagename redditname"] a {
 .flat-list {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 12px !important;
 }
 
 .flat-list a.comments {
@@ -507,3 +509,30 @@ div.thing.link {
   color: #ff4500 !important;
 }
 
+/* Search page input */
+.raisedbox h4 {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #e5e3da;
+}
+
+.combined-search-page .searchpane {
+  max-width: 750px;
+  min-width: 600px;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+/* Logged in header */
+.separator {
+  display: none;
+}
+
+#mail, #chat {
+  margin: 0px 5px 0px 5px;
+  font-size: 0;
+}
+
+/* Submit a link button */
+.morelink {
+  display: none;
+}
